@@ -1,0 +1,33 @@
+body{
+    background-color: #dddbdb83;
+}
+.nav{
+    background: linear-gradient(to right bottom, #16222a, #3a6073);
+}
+.currentWeather-header-text h5{
+    color: rgb(6, 177, 154);
+}   
+.iconInfo img{
+    width: 145%;    
+}   
+hr{ 
+    margin: 0;
+    padding: 0; 
+}
+.nearby{
+    width: 49%;
+    background: linear-gradient(to right bottom, #def6ff, #dbdbdb);
+}
+#temp{
+    font-size: 34px;
+}
+
+.day:hover{
+    color: #0467d8;
+    border: 1px solid #740aff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px rgba(154, 147, 140, 0.5), 3px 3px 7px rgb(128, 126, 126);
+}

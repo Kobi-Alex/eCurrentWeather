@@ -1,0 +1,62 @@
+<!-- CURRENT -->
+<div id="currentWeather" class="tab-pane fade show active p-4 m-0">
+    <div class="styleColor rounded p-3">
+        <div class="row mx-3 text-info font-weight-bold">
+            <div class="d-flex w-100 justify-content-between">
+                <h5>CURRENT WEATHER</h5>
+                <h5 id="date"></h5>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-around pt-1">
+            <div class="iconInfo">
+                <img id="wicon" src="" alt="Weather icon">
+                <h6 id="wtype" class="text-secondary pl-4"></h6>
+            </div>
+
+            <div class="tempInfo pt-3" id="temp">
+                <h1></h1>
+                <h6 class="text-secondary"></h6>
+            </div>
+
+            <div class="activityInfo row text-secondary pt-3">
+                <div class="col">
+                    <h6> Sunrise: </h6>
+                    <h6> Sunset: </h6>
+                    <h6> Duration: </h6>
+                </div>
+                <div>
+                    <h6 id="sunrise"></h6>
+                    <h6 id="sunset"></h6>
+                    <h6 id="duration"></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- HOURLY -->
+<div id="hourlyWeather" class="tab-pane fade show active px-4 m-0">
+    <div class="styleColor rounded p-3">
+        <div class="row mx-3 text-info font-weight-bold">
+            <div class="d-flex w-100 justify-content-between pb-4" >
+                <h5>HOURLY</h5>
+            </div>
+        </div>
+    
+        <div class="hourly-content d-flex text-center pr-4">
+        </div>
+    </div>
+</div>
+<!-- NEARBY -->
+<div id="nearbyWeather" class="tab-pane fade show active p-4 m-0">
+    <div class="styleColor rounded p-3">
+        <div class="mx-3 text-info">
+            <div class="font-weight-bold">
+                <h5>NEARBY PLACES</h5>
+            </div>
+
+            <div class="nearby-content m-0 row w-100 d-flex justify-content-between text-dark ">
+            </div>
+        </div>
+    </div>
+</div>
